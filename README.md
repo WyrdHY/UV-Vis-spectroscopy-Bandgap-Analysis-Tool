@@ -1,4 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandgap Analysis Using UV-vis Spectra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0 2rem;
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem;
+            border-radius: 3px;
+        }
+    </style>
+</head>
 <body>
     <h1>Bandgap Analysis Using UV-vis Spectra</h1>
     <p>This repository contains a class for optical bandgap measurement analysis using UV-vis spectra. The class, <code>bandgap</code>, allows you to plot bandgap transitions and perform line fitting to determine transition energies.</p>
