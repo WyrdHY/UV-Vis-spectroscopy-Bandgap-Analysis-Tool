@@ -28,7 +28,16 @@ from plotly.subplots import make_subplots
     # n = 1/3, indirect forbid transit 
     # direct means electron + photon / indirect means electron + photon + phonon 
 
-
+# Method: Line_fit 
+# To use this method, you need to provide 
+# (xi xf): these two are used to fit the first line 
+# (xxi xxf): these two are used to fit the second line 
+# fig: provide the figure you want to overlay on to show the bandgap
+    # Once these four paramters are given, 
+    # it will automatically fit and find the intersection and display it on the graph
+    # you can call this method multiple time if there are multiple bandgaps 
+    # however, you must run Plot first before Line_fit
+  
 class bandgap: 
     def __init__(self,hv,r):
         self.hv = np.array(hv, dtype=float)
